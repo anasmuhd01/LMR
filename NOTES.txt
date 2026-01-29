@@ -1,0 +1,63 @@
+mutable , immutable-bool
+
+expression [having operands and operator, a+ b a, b --> operands ]
+
+
+identifier - class name should start with capital letter
+
+bitwise operator -- used to compare binary numbers
+membership operator --> to check a value is a part of a collection
+
+ in , not in      
+ 
+---------------------
+identity operator: is not, memory address checking
+
+
+
+input() --> string , so convert to int()
+controlled loop --> for
+un controlled --> while
+
+-----------------------------------------------------
+a=10
+b=20
+print("a is big")if a>b else print('b is big')
+
+python feature ---------------------------------------
+
+
+
+
+Jumping statements -->
+break ---> stops and moves interpreter out of loop
+continue --> stops current loop and by-pass into next loop
+
+for - else
+an else block only executes when it provided with a looping block when that loop 
+completely executed
+
+
+#----POSITIONAL ARGS-----
+
+#----KEYWORD ARGS---------
+
+#-----ARBITRARY ARGUMENTS--------------------------------------
+#----- " * " is given to the parameter inside the function ----
+#----- value will store in a tuple-----------------------------
+
+
+#---- ARBITRARY KEYWORD ARGUMENT---------
+#---- " ** " WILL BE USED AND STORED INSIDE A DICTIONARY---
+
+
+#------------------------------------------------------------
+
+#-----DEFAULT ARGUMENTS-------------------------------------
+
+
+
+Types of function------
+
+-->Recurcive function
+-->Lambda function

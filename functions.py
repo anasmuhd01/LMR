@@ -73,3 +73,22 @@
 # default_args(10,20)
 # print("--------------------")
 # default_args(10)
+
+
+# def rec_fun(count):
+    
+#     if count !=0:
+#         print("recursive function")
+#         rec_fun(count-1)
+    
+# rec_fun(5)
+
+def factorial(n):
+    if n ==1:
+        return 1
+    else:
+        return n* factorial(n-1)
+    
+
+
+print(factorial(5))

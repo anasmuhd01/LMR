@@ -20,9 +20,16 @@
 #     print(star)
 
 
-inp=int(input("enter limit: "))
+# inp=int(input("enter limit: "))
 
-for i in range(inp,0,-1):
-    for j in range(i):
-        print("* ",end="")
-    print()
+# for i in range(inp,0,-1):
+#     for j in range(i):
+#         print("* ",end="")
+#     print()
+
+
+# for i in range(5,0,-1):
+#     for j in range(i):
+#         print(j,end=" ")
+#     print()
+
