@@ -83,12 +83,21 @@
     
 # rec_fun(5)
 
-def factorial(n):
-    if n ==1:
-        return 1
-    else:
-        return n* factorial(n-1)
+# def factorial(n):
+#     if n ==1:
+#         return 1
+#     else:
+#         return n* factorial(n-1)
     
 
+# print(factorial(5))
 
-print(factorial(5))
+
+var1 = lambda a,b:a+b
+print(var1(10,20))
+
+fact = lambda n:1 if n==1 else n*fact(n-1)
+print(fact(5))
+
+
+#! pass by value and pass by reference note

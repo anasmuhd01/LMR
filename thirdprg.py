@@ -185,7 +185,7 @@
 #     print("NOT ARMSTRONG ")
 
 
-
+#----------------PRIME NUMBER--------------------------
 # user_input = int(input("enter number :"))
 # flag=0
 # for i in range(2,user_input):
@@ -197,6 +197,8 @@
 #     print("PRIME")
 # else:
 #     print("NOT PRIME")
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 
 # for i in range(10):
 #     if i == 4:
