@@ -59,14 +59,18 @@ used'''
 # print(a)
 
 '''STRING FORMATING
-    using formating method--
+    using formating method-- .format()
     {}--> is called placeholder
 '''
 
 name = input("enter name: ")
 number = input("enter number")
 
-string_formating="{},you have {} messages--".format(name,number)
-print(string_formating)
+# string_formating="{},you have {} messages--".format(name,number)
+# print(string_formating)
 
-
+'''
+USING FSTRING METHOD
+'''
+str_a=f"{name} you have {number} message"
+print(str_a)
