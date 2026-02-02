@@ -93,11 +93,11 @@
 # print(factorial(5))
 
 
-var1 = lambda a,b:a+b
-print(var1(10,20))
+# var1 = lambda a,b:a+b
+# print(var1(10,20))
 
-fact = lambda n:1 if n==1 else n*fact(n-1)
-print(fact(5))
+# fact = lambda n:1 if n==1 else n*fact(n-1)
+# print(fact(5))
 
 
 #! pass by value and pass by reference note
