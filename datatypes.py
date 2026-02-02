@@ -21,10 +21,52 @@
 
 # print(a[6]) 
 
-a= "apple is red"
+# a= "apple is red"
 
-for i in range(len(a)):
-    print(a[i])
+# for i in range(len(a)):
+#     print(a[i])
 
-for i in a:
-    print(i)
+# for i in a:
+#     print(i)
+
+# count=0
+# nm = input("Enter a string ")
+# # for i in nm:
+# #     if i == 'a' or i =='e' or i =='i' or i=='o' or i=='u':
+# #         # print(i)
+# #         count+=1
+# # print(count)
+
+# # using MEMBERSHIP OPERATOR  
+# for i in nm:
+#     if i in 'aeiouAEIOU':
+#         # print(i)
+#         count+=1
+
+# print(count)
+
+# a = "c::\file\bin\ti"
+# print(a)
+
+# a = "c::\\file\\bin\\ti"
+# print(a)
+
+'''r is used in order to reduce string length from
+using " escpe characters " , instead of \\ " r  " can be 
+used'''
+
+# a = r"c::\file\bin\ti"
+# print(a)
+
+'''STRING FORMATING
+    using formating method--
+    {}--> is called placeholder
+'''
+
+name = input("enter name: ")
+number = input("enter number")
+
+string_formating="{},you have {} messages--".format(name,number)
+print(string_formating)
+
+
