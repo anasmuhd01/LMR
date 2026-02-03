@@ -82,3 +82,19 @@ string --> str = ''' '''
 
 # a[6]="o"
 # TypeError: 'str' object does not support item assignment
+
+
+--> STRING CLASS METHOD <--
+capitalize()  casefold      isalfa
+isdecimal   idgigit     islower
+isspace     isupper     join 
+lower      replace      split  
+casefold    count       endswith
+find        format      index
+isalnum     strip       swapcase 
+title upper
+
+find()--> will return -1 if the item is not find
+        !-1
+index()--> will return error if the item is not their
+        !ValueError: substring not found

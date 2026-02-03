@@ -63,8 +63,8 @@ used'''
     {}--> is called placeholder
 '''
 
-name = input("enter name: ")
-number = input("enter number")
+# name = input("enter name: ")
+# number = input("enter number")
 
 # string_formating="{},you have {} messages--".format(name,number)
 # print(string_formating)
@@ -72,5 +72,28 @@ number = input("enter number")
 '''
 USING FSTRING METHOD
 '''
-str_a=f"{name} you have {number} message"
-print(str_a)
+# str_a=f"{name} you have {number} message"
+# print(str_a)
+
+a="apple is red"
+b="A"
+# for i in range(len(a)):
+#     if a[i] == " ":
+#         print()
+#     print(a[i],end="")
+
+# for i in a:
+#     if i == " ":
+#         print()
+#         continue
+#     print(i,end="")
+
+# print(a.replace("apple","strawbery"))
+# print(a.isalpha())
+# print(a.find('z'))
+# print(a.index('z'))
+print(a.strip(' a'))
+print(a.swapcase())
+print(a.upper())
+
+    
