@@ -105,3 +105,7 @@ Immutable, Orderd, Indexed
 eg:
  if (1) its <clas (int)>  --> (1,) 
 (1,2,3,"hello",True)
+
+tuple class method --
+1. count
+2. index
