@@ -98,3 +98,10 @@ find()--> will return -1 if the item is not find
         !-1
 index()--> will return error if the item is not their
         !ValueError: substring not found
+
+--------------->> TUPLE <<--------------------------
+
+Immutable, Orderd, Indexed
+eg:
+ if (1) its <clas (int)>  --> (1,) 
+(1,2,3,"hello",True)

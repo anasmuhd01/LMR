@@ -77,6 +77,8 @@ USING FSTRING METHOD
 
 a="apple is red"
 b="A"
+c=" "
+d=['a','b','c']
 # for i in range(len(a)):
 #     if a[i] == " ":
 #         print()
@@ -92,8 +94,22 @@ b="A"
 # print(a.isalpha())
 # print(a.find('z'))
 # print(a.index('z'))
-print(a.strip(' a'))
-print(a.swapcase())
-print(a.upper())
+# print(a.strip(' a'))
+# print(a.swapcase())
+# print(a.upper())
+# print(b.casefold())
+# print(b.endswith('a'))
+# print(c.isspace())
+# x='_'
+# print(x.join(d))
+# print(a.count('a'))
 
-    
+# x={'val1':1,'val2':2}
+# y='_'
+# print(y.join(x))
+
+# x='   apple is red    '
+# print(x.strip())
+
+
+
