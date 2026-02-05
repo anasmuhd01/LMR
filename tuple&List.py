@@ -120,12 +120,66 @@ and tuple "packing&unpacking" is same
 # a=tuple(b)
 # print(a)
 
-size = int(input("enter limit"))
-a =[]
+# size = int(input("enter limit"))
+# a =[]
 
-for i in range(size):
+# for i in range(size):
     
-    elements= input("enter elements :")
-    a.append(elements)
-print(a)
+#     elements= input("enter elements :")
+#     a.append(elements)
+# print(a)
     
+# main=[12,31,4,16,109,82,77,133,241,1092]
+# odd=[]
+# even=[]
+# for i in main:
+#     if i%2==0:
+#         even.append(i)
+#     else:
+#         odd.append(i)
+# odd.sort()
+# even.sort()
+# print("odd list --> ", odd)
+# print("even list --> ", even)
+
+sum=0
+main=[12,31,4,16,109,82,77,133,241,1092,1]
+
+# for i in main:
+#     sum+=i
+# print(sum)
+#--> to print largest number
+
+# print(main[0])
+# print(main[0+1])
+# larg=main[0]
+# for i in main:
+#     if larg<i:
+#         larg=i
+# print(larg)
+#--> to print smallest number
+# small=main[0]
+# for i in main:
+#     if small>i:
+#         small=i
+# print(small)
+ 
+# --> to print without repeatation     
+a=[1,2,1,1,2,1,4,5,6,1,3,4,5,6]
+b=[]
+for i in a:
+    if i in b:
+        continue
+    else:
+        b.append(i)
+print(b)
+
+        
+
+# b=set(a)
+# print(b)
+
+
+
+
+        

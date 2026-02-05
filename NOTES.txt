@@ -123,3 +123,12 @@ pop()	Removes the element at the specified position
 remove()	Removes the first item with the specified value
 reverse()	Reverses the order of the list
 sort()	Sorts the list
+
+
+DICTIONARY
+key value pair
+eg:
+{key:value}
+{"name":"anas","place":"v"}
+
+-mutable     -orderd(after py 3.7)    -named index
