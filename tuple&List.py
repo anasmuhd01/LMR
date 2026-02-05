@@ -60,3 +60,72 @@ and tuple "packing&unpacking" is same
 # b=[4,5,6]
 # c=b+a
 # print(c)
+
+#list methods
+
+# a=[1,2,3]
+# a.append(5)
+# a.clear()
+# a=[4,5,6,4,4,]
+# b = a.copy()
+# print(b)
+# x =a.count(4)
+# print(x)
+# a=[1,2,3]
+# b=[12,23]
+# a.extend(b)
+# print(a)
+
+# a=[11,9,4,25]
+#a.pop() #--> last item will poped 
+# x=a.pop(1) #-->will pop the item at index 1 
+# print(x) #--> will return poped item 
+# print(a) 
+
+# a=[44,55,23,11]
+# # a.remove(44) #--> will remove the item 44 no return data
+
+# a.sort()
+# a.reverse()
+# print(a)
+
+# a=[1,2,3]
+# b=a
+# print(id(a))
+# b.append(4)
+# print(id(b))
+
+# print(a)
+# print(b)
+
+# a=[1,2,3]
+# b=a.copy()
+# print(id(a))
+# b.append(4)
+# print(id(b))
+
+# print(a)
+# print(b)
+
+
+#type converting tuple to list and to tuple again
+
+# a=(1,2,3,4)
+# # a[3]="kiwi" not possible due to immutability
+
+# b=list(a)
+# b[3]="kiwi"
+# print(b)
+
+# a=tuple(b)
+# print(a)
+
+size = int(input("enter limit"))
+a =[]
+
+for i in range(size):
+    
+    elements= input("enter elements :")
+    a.append(elements)
+print(a)
+    
