@@ -157,6 +157,8 @@ main=[12,31,4,16,109,82,77,133,241,1092,1]
 #     if larg<i:
 #         larg=i
 # print(larg)
+
+
 #--> to print smallest number
 # small=main[0]
 # for i in main:
@@ -165,14 +167,14 @@ main=[12,31,4,16,109,82,77,133,241,1092,1]
 # print(small)
  
 # --> to print without repeatation     
-a=[1,2,1,1,2,1,4,5,6,1,3,4,5,6]
-b=[]
-for i in a:
-    if i in b:
-        continue
-    else:
-        b.append(i)
-print(b)
+# a=[1,2,1,1,2,1,4,5,6,1,3,4,5,6]
+# b=[]
+# for i in a:
+#     if i in b:
+#         continue
+#     else:
+#         b.append(i)
+# print(b)
 
         
 
@@ -180,6 +182,3 @@ print(b)
 # print(b)
 
 
-
-
-        

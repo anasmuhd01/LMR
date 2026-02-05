@@ -132,3 +132,5 @@ eg:
 {"name":"anas","place":"v"}
 
 -mutable     -orderd(after py 3.7)    -named index
+-concationation not possible
+-packing and unpacking not possible
