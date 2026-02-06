@@ -134,3 +134,18 @@ eg:
 -mutable     -orderd(after py 3.7)    -named index
 -concationation not possible
 -packing and unpacking not possible
+
+
+------------------------------------------------------
+-------------------------SET--------------------------
+
+{1,2,3,"apple"}
+
+-unorderd
+-mutable
+-non-indexed
+-duplicate values will be ignored
+
+set class method
+add()
+remove()

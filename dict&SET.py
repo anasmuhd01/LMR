@@ -44,12 +44,20 @@ a={"name":"ajith","place":"calicut","age":20}
 # a.popitem()
 # print(a)
 
-x= a.setdefault("name",'ajithk')
-print(x)
-print(a)
+# x= a.setdefault("name",'ajithk')
+# print(x)
+# print(a)
 
-a.setdefault("last_test",123)
-print(a)
+# a.setdefault("last_test",123)
+# print(a)
 
-a.update({"name":"ajith kk"})
+# a.update({"name":"ajith kk"})
+# print(a)
+
+a={1,2,3,3,"apple"}
+print(a)
+a.add("kiwi")
+print(a)
+a.remove("kiwi")
+a.remove(3)
 print(a)
