@@ -111,6 +111,7 @@ tuple class method --
 2. index
 
 --------------------------LIST--------------------
+--> list comprehension
 LIST CLASS METHOD
 append()	Adds an element at the end of the list
 clear()	Removes all the elements from the list
