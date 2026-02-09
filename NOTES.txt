@@ -112,6 +112,9 @@ tuple class method --
 
 --------------------------LIST--------------------
 --> list comprehension
+newlist = [expression for item in iterable if condition == True]
+
+
 LIST CLASS METHOD
 append()	Adds an element at the end of the list
 clear()	Removes all the elements from the list
