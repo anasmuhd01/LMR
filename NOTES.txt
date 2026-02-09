@@ -157,3 +157,10 @@ remove()
 
 -----------------------------------------------------------
 --------------------SLICING--------------------------------
+
+
+=> Scope of variable
+----------------------
+accescibility of a defined variable
+global
+local
