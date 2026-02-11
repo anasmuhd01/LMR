@@ -25,16 +25,16 @@ a=["apple","banana","kiwi","lichi","strawberry","cherry","avocado","tomato","ora
 # x=[i for i in a if len(i)>6]
 # print(x)
 
-
-x =[i[::-1] for i in a ]
-print(x)
+x=[i[::-1] for i in a]
 # x=[]
 # for i in a:
     
 #     y=(i[::-1])
 #     x.append(y)
 
-# print(x)
+print(x)
+
+
 
 
 

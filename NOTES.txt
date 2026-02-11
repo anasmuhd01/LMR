@@ -164,3 +164,25 @@ remove()
 accescibility of a defined variable
 global
 local
+
+=> python module, py packages, libraries with importing statements
+ 
+->module -: is a file containing Python code (definitions and statements) that 
+                can be imported and used in other Python programs
+
+->packages -: directories containing related modules (python files ) and an __init__.py file
+
+->libraries -: collections of pre-written code modules that provide functions and classes to
+                 perform specific tasks, saving developers time and effort 
+
+import -->
+import package_name
+from module import package_name
+from module immport *
+from module import package_name as aliesname
+
+placing order of import statements
+
+built in 
+3rd party
+user defined
