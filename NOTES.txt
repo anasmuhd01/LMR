@@ -186,3 +186,10 @@ placing order of import statements
 built in 
 3rd party
 user defined
+
+
+-->  MAPING FILTER AND REDUCE
+
+Functional programming in python is supported by three powerfull built in functions(maping, filter, reduce).
+These function enables effiecient data transmission and processing by applying operations to entire iterables(list,
+tuple) without using explicit loops
