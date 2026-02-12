@@ -34,5 +34,11 @@ from functools import reduce
 
 a=[1,56,71,24,39,103,245]
 
-res= reduce(lambda sum,i: sum+i,a)
+res=reduce(lambda sum,i:sum+i,a) # initial value sum=0
+# res=reduce(lambda sum,i: sum+i,a,1) # now initial value will be 1
+print(res)
+
+# res=reduce(lambda mul,i: mul*i,a,1)
+
+# res= reduce(lambda a,b:a if a>b else b,a) # --> will print greatest in the list
 print(res)
