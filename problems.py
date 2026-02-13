@@ -77,8 +77,9 @@ student=[
 #     if i["course"]=="BSC CS":
 #         print(i["name"])
 
-# res=map( lambda a:a["course"]=="BSC CS",student )
-# print(list(res))
+# res=list(filter( lambda a:a["course"]=="BSC CS",student ))
+# stu=list(map(lambda n:n["name"],res))
+# print(stu)
 
 #WAP to find avg age of students from BSC cs
 
@@ -88,13 +89,13 @@ student=[
 
 #WAP to find list of students whose age <20
 
-res=filter(lambda a:a["age"]<20,student)
-print(list(res))
+# res=filter(lambda a:a["age"]<20,student)
+# print(list(res))
 
 #WAP to find find student with least score
 
 
 
-# print(reduce(lambda a,b:a if a["Score"]<b["Score"] else b,student))
+print(reduce(lambda a,b:a if a["Score"]<b["Score"] else b,student))
 
 

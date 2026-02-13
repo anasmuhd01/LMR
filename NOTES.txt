@@ -193,3 +193,9 @@ user defined
 Functional programming in python is supported by three powerfull built in functions(maping, filter, reduce).
 These function enables effiecient data transmission and processing by applying operations to entire iterables(list,
 tuple) without using explicit loops
+
+
+Decorator Generator Iterator:
+
+Decorator-->
+::special function which can modify a functions functionality without altering its body
