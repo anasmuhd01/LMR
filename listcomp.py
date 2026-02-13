@@ -33,11 +33,3 @@ x=[i[::-1] for i in a]
 #     x.append(y)
 
 print(x)
-
-
-
-
-
-
-
-

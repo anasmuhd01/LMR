@@ -95,5 +95,3 @@ for i in word_split:
         emp_di[i]=1
 
 print(emp_di)
-
-    
