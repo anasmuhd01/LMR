@@ -199,3 +199,23 @@ Decorator Generator Iterator:
 
 Decorator-->
 ::special function which can modify a functions functionality without altering its body
+
+Iterator:
+---------
+an object where its elements can be iterated through
+--(more control than other loops, memmory effiecient)--
+iter()
+next()
+
+Generator:
+a function that return one value at a time
+
+def fun():
+        body
+        yeild val1
+        yeild val2
+        yeild val3
+
+fun() Returns val1
+fun() Returns val2
+fun() Returns val3
