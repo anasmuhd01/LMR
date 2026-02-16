@@ -210,12 +210,3 @@ next()
 Generator:
 a function that return one value at a time
 
-def fun():
-        body
-        yeild val1
-        yeild val2
-        yeild val3
-
-fun() Returns val1
-fun() Returns val2
-fun() Returns val3
