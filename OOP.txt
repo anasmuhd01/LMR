@@ -1,0 +1,42 @@
+programming Paradigm: style of programming/format of programming;
+                      there is several style of programming
+
+a fundamental style, approach, or methodology for programming that 
+dictates how a developer structures, organizes,
+ and implements code to solve problems
+
+
+eg:
+imerative 
+declarative
+functional 
+procedural
+event driven
+object oriented
+
+Object Oriented
+---------------
+the data given to object
+
+class- user defined data type, collection of objects, 
+  |
+  |-->Object: 
+
+abstraction--> data hiding
+encapsulation--> protecting data
+inheritance
+polymorphism
+
+real world entity/ instance of a class
+collection of objects / blueprint of an object / user-defined datatype
+ability of an instace/class to show properites of other instance/class based on relationship
+wrapping up data and behaviours into a single unit
+ability of an instance to show different behaviours based on different situations
+showing relevent data while hiding irrelevant data
+
+
+class ClassName: --> class
+  members
+
+ob=ClassName()  --> object creation/ instaciation
+
