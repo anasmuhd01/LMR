@@ -49,3 +49,5 @@ built in method exists in every class, where its name starts and ends with
 
 1. __init__() :--> constructor
 2. __str__()  :--> string representative
+3. __repr__()
+4. __del__() :--> destructor
