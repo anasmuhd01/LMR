@@ -40,3 +40,12 @@ class ClassName: --> class
 
 ob=ClassName()  --> object creation/ instaciation
 
+default 
+parmeterized
+
+--> Dunder methods/ Magic methods
+built in method exists in every class, where its name starts and ends with
+" __ "(double underscore)
+
+1. __init__() :--> constructor
+2. __str__()  :--> string representative
