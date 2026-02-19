@@ -40,8 +40,8 @@ class ClassName: --> class
 
 ob=ClassName()  --> object creation/ instaciation
 
-default 
-parmeterized
+default      \ 
+parmeterized /
 
 --> Dunder methods/ Magic methods
 built in method exists in every class, where its name starts and ends with
@@ -51,3 +51,7 @@ built in method exists in every class, where its name starts and ends with
 2. __str__()  :--> string representative
 3. __repr__()
 4. __del__() :--> destructor
+
+---- INHERITANCE ------
+-----------------------
+ 

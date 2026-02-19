@@ -93,19 +93,20 @@
 # print(t1)
 # print(repr(t1))
 
-class Main:
-    name="welcom"
-    name1="test"
-    def __init__(self):
-        print("welocme 1")
-    def __del__(self):
-        print("Destructor")
+# class Main:
+#     name="welcom"
+#     name1="test"
+#     def __init__(self):
+#         print("welocme 1")
+#     def __del__(self):
+#         print("Destructor")
 
-m1=Main()
-print(m1.name)
+# m1=Main()
+# print(m1.name)
 
         
-m2=Main()
-print(m2.name)
+# m2=Main()
+# print(m2.name)
 
-print(m1.name1)
+# print(m1.name1)
+
