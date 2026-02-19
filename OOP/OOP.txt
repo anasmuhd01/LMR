@@ -54,4 +54,31 @@ built in method exists in every class, where its name starts and ends with
 
 ---- INHERITANCE ------
 -----------------------
- 
+super()
+parent class members can be acessed by using super method super().member_name
+
+types:->
+
+Single Inheritance
+Single inheritance enables a derived class to inherit properties from a single parent class, 
+thus enabling code reusability and the addition of new features to existing code.
+
+Multiple Inheritance
+When a class can be derived from more than one base class this type of inheritance is called multiple inheritances. 
+In multiple inheritances, all the features of the base classes are inherited into the derived class. 
+
+Multiple Inheritance
+When a class can be derived from more than one base class this type of inheritance is called multiple inheritances.
+In multiple inheritances, all the features of the base classes are inherited into the derived class. 
+
+Hierarchical Inheritance
+When more than one derived class are created from a single base this type of inheritance is called hierarchical 
+inheritance. In this program, we have a parent (base) class and two child (derived) classes.
+
+Hybrid Inheritance
+Hybrid inheritance is a combination of more than one type of inheritance. It uses a mix like single, multiple, 
+or multilevel inheritance within the same program. Python's method resolution order (MRO) handles such cases.
+
+----------------------------------------------encapsulation--------------------------------------------------------------------------
+
+-wrapping up of data and behaviours into a single unit is called encapsu;ation
