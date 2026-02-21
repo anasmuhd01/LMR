@@ -96,4 +96,10 @@ used for
 
 
 polymorphism:------------------------------------
+method overloading:
+Python doesnt support MO because of dynamic typed because it resolves method calls during runtime not 
+during compilation. though similar behaviour can be achieved through default and variable arguments
+
+duck typing : 
+     type or class of an object is less important than the method it defines
 
