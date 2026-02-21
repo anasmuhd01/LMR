@@ -96,6 +96,6 @@ student=[
 
 
 
-print(reduce(lambda a,b:a if a["Score"]<b["Score"] else b,student))
+# print(reduce(lambda a,b:a if a["Score"]<b["Score"] else b,student))
 
 

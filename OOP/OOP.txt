@@ -82,3 +82,18 @@ or multilevel inheritance within the same program. Python's method resolution or
 ----------------------------------------------encapsulation--------------------------------------------------------------------------
 
 -wrapping up of data and behaviours into a single unit is called encapsu;ation
+
+access specifiers/modifiers:
+public
+protected
+private : using (__)
+
+used for 
+- Data Protection
+- Flexibility
+- Validation
+- Control
+
+
+polymorphism:------------------------------------
+
