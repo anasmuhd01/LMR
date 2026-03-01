@@ -15,7 +15,10 @@ import random
 # strin=input("Enter a identifier: ")
 # pat="^[_a-zA-z][a-zA-z0-9]{1,}$"
 # res=re.findall(pat, strin)
-# print(res)
+# if res:
+#     print(res)
+# else:
+#     print("Not valid identifier:")
 
 
 
@@ -37,29 +40,50 @@ import random
 # print("sum =" ,sum)
 
 # -4
-#give loop value by factorial
-actual=[]
-after_copy=[]
-temp_list=[]
-length= int(input("enter length of identifier: "))
-for i in range(length):
-    iden_char = input("enter characters: ")
-    temp_list.append(iden_char)
 
-pat="^[_a-zA-z][a-zA-z0-9]{1,}$"
-for i in range(10):
-    x= "".join(random.sample(temp_list,k=5))
-    actual.append(x)
+# from itertools import permutations
+# length=int(input("Enter length of identifier: "))
+# arr=[]
+# for i in range(length):
+#     ch=input("enter characters: ")
+#     arr.append(ch)
+# res=["".join(p) for p in permutations(arr)]
+# print(res)
+
+# identifier_lis=[]
+# pat="^[_a-zA-z][a-zA-z0-9]{1,}$"
+# for word in res:
+#     if re.match(pat,word):
+#         identifier_lis.append(word)
+# print(identifier_lis)
+
+#  --4
+# user_input=[]
+# length=int(input("Enter identifier length: "))
+# for i in range(length):
+#     a=input(f"Enter character {i+1} :")
+#     user_input.append(a)
+
+# final_res=[]
+# def permutation(chars,current):
+#     if len(chars)==0:
+#         final_res.append(current)
+#         return
+#     for i in range(len(chars)):
+#         reminder= chars[:i]+chars[i+1:]
+#         permutation(reminder, current+chars[i])
+
+# permutation(user_input,"")
+# print(final_res)
+
+# identifier_lis=[]
+# pat="^[_a-zA-z][a-zA-z0-9]{1,}$"
+# for word in final_res:
+#     if re.match(pat,word):
+#         identifier_lis.append(word)
     
-    res=re.findall(pat, x)
-    after_copy.append(res)
-print(actual)
-print(after_copy)
+# print(identifier_lis)
 
-
-
-
-# print(temp_list)
 
 # -5 
 # avg=0
@@ -118,17 +142,19 @@ print(after_copy)
 # else:
 #     print("Ineligble: ")
 
-#-9
+# -9
 # number = int(input("Enter a number: "))
 # for i in range(10):
 #     print(f"{i+1} * {number} = {(i+1)*number}")
 
 #-10
-# a=5
-# b=10
-
-# a=a+b
-# b=a-b
-# a=a-b
-# print(a)
-# print(b)
+a=25
+b=11
+print(a)
+print(b)
+print("after swaping")
+a=a+b
+b=a-b
+a=a-b
+print(a)
+print(b)
