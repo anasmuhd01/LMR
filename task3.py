@@ -148,13 +148,13 @@ import random
 #     print(f"{i+1} * {number} = {(i+1)*number}")
 
 #-10
-a=25
-b=11
-print(a)
-print(b)
-print("after swaping")
-a=a+b
-b=a-b
-a=a-b
-print(a)
-print(b)
+# a=25
+# b=11
+# print(a)
+# print(b)
+# print("after swaping")
+# a=a+b
+# b=a-b
+# a=a-b
+# print(a)
+# print(b)

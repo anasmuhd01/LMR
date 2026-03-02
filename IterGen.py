@@ -14,14 +14,17 @@
 # res = fun()
 # print(res)
 
-def sample():
-    print("hello world")
-    yield 1
-    yield 2
-    yield 3
+# def sample():
+#     print("hello world")
+#     yield 1
+#     yield 2
+#     yield 3
+
+# res=sample() # <generator object fun at 0x0000013C75295E40>
+# print(next(res))
+# print(next(res))
+# print(next(res))
 
 
-res=sample() # <generator object fun at 0x0000013C75295E40>
-print(next(res))
-print(next(res))
-print(next(res))
+
+    
