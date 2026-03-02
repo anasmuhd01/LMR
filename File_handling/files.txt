@@ -1,0 +1,11 @@
+We use open method - open() - to access a file 
+----------------------------------------------
+modes-----------------------------------------
+----------------------------------------------
+r- read
+w-write : new file is created if no file with that name, re-write the content
+a- append : new file create if no new file else append to same line
+x- create : will create new file if exist error occur "FileExistsError: [Errno 17] File exists:"
+
+r+ : read & write : file should exist
+w+ : 
