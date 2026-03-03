@@ -24,7 +24,13 @@
 #x mode
 # open("File_handling/XmodeFile.txt","x")
 
-fp=open("File_handling/file3.txt","r+")
+# fp=open("File_handling/file3.txt","r+")
+# print(fp.read())
+# # fp.seek(0) # will start the index at zero
+# fp.write("line 2")
+
+# wrte then read 
+fp=open("File_handling/file4.txt","w+")
+fp.write("file 4")
+fp.seek(0)
 print(fp.read())
-# fp.seek(0) # will start the index at zero
-fp.write("line 2")

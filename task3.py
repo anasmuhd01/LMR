@@ -41,14 +41,17 @@ import random
 
 # -4
 
-# from itertools import permutations
+from itertools import permutations
 # length=int(input("Enter length of identifier: "))
-# arr=[]
+arr=['a','b','c']
 # for i in range(length):
 #     ch=input("enter characters: ")
 #     arr.append(ch)
-# res=["".join(p) for p in permutations(arr)]
-# print(res)
+# "".join(p) 
+res=[p for p in permutations(arr)]
+# for i in range(arr):
+#     print(permutations(i))
+print(res)
 
 # identifier_lis=[]
 # pat="^[_a-zA-z][a-zA-z0-9]{1,}$"
