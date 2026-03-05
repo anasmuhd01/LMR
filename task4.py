@@ -1,11 +1,11 @@
-#1
+# 1
 # num=int(input("Enter number: "))
 # if num%2==0:
 #     print(f"{num} is even number!")
 # else:
 #     print(f"{num} is odd")
 
-#2
+# 2
 # num=int(input("enter year: "))
 # if num%400==0:
 #     print("Leap Year")
@@ -30,6 +30,44 @@
 #     print(f"{a[2]} is greater")
 
 #4
+# age=int(input("Enter age: "))
+# gender=input("Enter gender: (M|F: )")
+# days=int(input("Enter working days: "))
+
+# if age>=18 and age<30 and gender=='M':
+#     print(f"Wage = {700*days}")
+# elif age>=18 and age<30 and gender=='F':
+#     print(f"Wage = {750*days}")
+# elif age>=30 and age<=40 and gender=='M':
+#     print(f"Wage= {800*days}")
+# elif age>=30 and age<=40 and gender=='F':
+#     print(f"Wage= {850*days}")
+# else:print("invalid age: ")
+
+
+#5
+# price_unit=100
+# qty=int(input("Enter quantity: "))
+# if qty >= 1000:
+#     total=price_unit*qty
+#     per=total*0.1
+#     final=total-per
+#     print(f"after discount price : {final}")
+# else:
+#     print(f"total price: {qty*price_unit}")
+
+#6
+# side=[]
+# for i in range(3):
+#     sides=int(input(f"Enter side {i+1}: "))
+#     side.append(sides)
+
+# if side[0] == side[1] == side[2]:
+#     print("EQUILATERAL TRIANGLE ")
+# elif side[0]==side[1] or side[1]==side[2] or side[2]==side[0]:
+#     print("ISOSCELES TRIANGLE ")
+# else:
+#     print("SCALENE TRIANGLE ")
 
 #7
 # num1=int(input("Enter num1: "))
@@ -84,7 +122,13 @@
 
 #10
 
-        
+length=int(input("Enter length:"))
+bredth=int(input("Enter bredth:"))
+
+if length == bredth:
+    print("given values form a square:")
+else:
+    print("Rectangle: ")
     
 
 
