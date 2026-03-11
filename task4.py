@@ -122,14 +122,30 @@
 
 #10
 
-length=int(input("Enter length:"))
-bredth=int(input("Enter bredth:"))
+# length=int(input("Enter length:"))
+# bredth=int(input("Enter bredth:"))
 
-if length == bredth:
-    print("given values form a square:")
-else:
-    print("Rectangle: ")
+# if length == bredth:
+#     print("given values form a square:")
+# else:
+#     print("Rectangle: ")
     
+# a="ele is beat"
+# res= a.split(" ")
+# after="".join(res)
+# print(after)
 
+# a=['ele','is' ,'beat']
+# # res= a.split(" ")
+# after="-".join(a)
+# print(after)
 
+# integer_list = map(int, input().split())
+# print(list(integer_list))
+
+#print by 4 
+a='ABCDEFGHIJKLIMNOQRSTUVWXYZ'
+
+print("\n".join(a[i:i+4] for i in range(0,len(a),4)))
+        
 
