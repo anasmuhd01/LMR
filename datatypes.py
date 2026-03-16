@@ -112,4 +112,7 @@ d=['a','b','c']
 # print(x.strip())
 
 
+var1="hello1"
+res = var1.isalnum()
+print(res)
 

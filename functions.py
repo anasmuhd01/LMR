@@ -75,13 +75,12 @@
 # default_args(10)
 
 
-# def rec_fun(count):
-    
-#     if count !=0:
-#         print("recursive function")
-#         rec_fun(count-1)
-    
-# rec_fun(5)
+def rec_function(count):
+    if count!=0:
+        print("Recursive Function")
+        rec_function(count-1)
+
+rec_function(5)
 
 # def factorial(n):
 #     if n ==1:
@@ -101,3 +100,4 @@
 
 
 #! pass by value and pass by reference note
+

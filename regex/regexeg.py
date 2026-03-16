@@ -49,7 +49,13 @@ import re
 
 #Wap to check if a given email id is valid or not
 
-test="sss@gmail.com"
-pattern=r"^[a-z0-9]+[@][a-z]{3,}$"
-res=re.findall(pattern,test)
+# test="sss@gmail.com"
+# pattern=r"^[a-z0-9]+[@][a-z]{3,}$"
+# res=re.findall(pattern,test)
+# print(res)
+
+
+a=input("Enter string")
+pat=r"^[a]"
+res=re.findall(pat,a)
 print(res)

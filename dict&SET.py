@@ -81,17 +81,16 @@ a={"name":"ajith","place":"calicut","age":20}
 # s = {*()} #--> set 
 # print(type(s))
 
-st ="apple apple apple banana grape grape"
-# st = input("enter your string: ")
-emp_di={}
+# st ="apple apple apple banana grape grape"
+# # st = input("enter your string: ")
+# emp_di={}
 
-word_split = st.split(" ")
+# splitted = st.split(" ")
+# for i in splitted:
+#     if i in emp_di:
+#         emp_di[i]+=1
+#     else:
+#         emp_di[i]=1
 
+# print(emp_di)
 
-for i in word_split:
-    if i in emp_di:
-        emp_di[i]+=1
-    else:
-        emp_di[i]=1
-
-print(emp_di)
