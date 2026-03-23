@@ -1,12 +1,13 @@
+#1
 # for i in range(1,21):
 #     if i %3 ==0 or i%5==0:
 #         print(i)
 
-
+#2
 # for i in range(1,10):
 #     if i % 4 ==0:
-#         print(i)
 #         break
+#     print(i)
 
 #3
 # word=input("Enter a word: ")
@@ -51,13 +52,16 @@
 #     print("PASSWORD INVALID! ")
 
 #7
-# num=28
+# num=int(input("Enter a number"))
 # sum=0
 # for i in range(1,num):
 #     if num%i==0:
 #         sum+=i
 
-# print(sum)
+# if num==sum:
+#     print("perfect number:")
+# else:
+#     print("not perfect number:")
     
 #8
 
@@ -67,7 +71,7 @@
 
 
 #9
-# num=123444
+# num=123
 # count=0
 # while num>0:
 #     num//=10
@@ -75,3 +79,10 @@
 # print(count)
 
 #10
+n="192 168 255 251"
+res=n.split(" ")
+last=int(res[-1])
+
+for i in range(4):
+    res[-1]=str(last+i)
+    print(" ".join(res))
