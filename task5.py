@@ -8,11 +8,64 @@
 #         print(i)
 #         break
 
-import random
+#3
+# word=input("Enter a word: ")
+# print(f"reversed: {word[::-1]}")
+
+#4
+# num=int(input("enter a number: "))
+# temp=num
+# n_of_digits=len(str(num))
+# sum=0
+# while num>0:
+#     mod=num%10
+#     sum+=mod**n_of_digits
+#     num//=10
+# if temp==sum:
+#     print("ARMSTRONG NUMBER")
+# else:
+#     print("NOT ARMSTRONG")
+
+#5
+# ran=int(input("Enter range:"))
+
+# for i in range(1,ran+1):
+#     if ran<2:
+#         print(i)
+#     flag=0
+#     for j in range(2,i):
+#         if i % j ==0:
+#             flag=1
+#             break
+#     if flag==1:
+#         print(i)
+
+#6
+# import re
+# pas=input("Enter password:")
+# pat=r"[a-zA-Z1-9!@#$%^&*._]{8,}"
+# res=re.findall(pat,pas)
+# if res:
+#     print("VALID PASSWORD! ")
+# else:
+#     print("PASSWORD INVALID! ")
+
+#7
+# num=28
+# sum=0
+# for i in range(1,num):
+#     if num%i==0:
+#         sum+=i
+
+# print(sum)
+    
 #8
-a=[1,2,3]
-for i in range(6):
-    print(random.choices(a,k=3))
+
+# from itertools import permutations
+# og_clctn=[1,2,3]
+# print(list(permutations(og_clctn)))
+
+
 #9
 # num=123444
 # count=0
@@ -20,3 +73,5 @@ for i in range(6):
 #     num//=10
 #     count+=1
 # print(count)
+
+#10
