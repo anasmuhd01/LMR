@@ -1,6 +1,4 @@
 phonebook={}
-x=5
-
 
 while True:
     operation=int(input("\npress number for operatio \n1.CREATE: \n2.RETRIEVE: \n3.UPDATE: \n4.DELETE \n5.EXIT\n"))
