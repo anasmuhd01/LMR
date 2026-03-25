@@ -7,12 +7,16 @@ cursor = connection.cursor()
                
 # print("table created")
 
-# qry=f"insert into customer values(null,'test1','123456')"
+# qry=f"insert into customer values(null,'test2','256256')"
 # cursor.execute(qry)
 # connection.commit()
 # print("Data added")
 
+
 # cursor.execute("select * from customer")
-# data=cursor.fetchall()
+# data = cursor.fetchall()
 # for i in data:
 #     print(i)
+
+# cursor.execute("delete from customer where id=3")
+# connection.commit()
