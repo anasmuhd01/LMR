@@ -11,3 +11,8 @@ cursor = connection.cursor()
 # cursor.execute(qry)
 # connection.commit()
 # print("Data added")
+
+# cursor.execute("select * from customer")
+# data=cursor.fetchall()
+# for i in data:
+#     print(i)
