@@ -20,3 +20,7 @@ cursor = connection.cursor()
 
 # cursor.execute("delete from customer where id=3")
 # connection.commit()
+
+# cursor.execute("update customer SET contact=1122334455 WHERE id=4")
+# connection.commit()
+# print("data updated")
