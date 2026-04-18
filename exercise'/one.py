@@ -35,11 +35,23 @@
 # p1=MyClass()
 
 # print(p1.x)
-class Person:
-  def __init__(self,name,age):
-    self.name=name
-    self.age=age
-  def greet(self):
-    print(f"Hello, my name is {self.name}")
-p1= Person( "John",36)
-p1.greet()
+# class Person:
+#   def __init__(self,name,age):
+#     self.name=name
+#     self.age=age
+#   def greet(self):
+#     print(f"Hello, my name is {self.name}")
+# p1= Person( "John",36)
+# p1.greet()
+
+
+class Myclass:
+    def test(self):
+        return "hello"
+    
+    def test2(self):
+        msg = self.test()
+        print(f"{msg} anas")
+
+p1 = Myclass()
+p1.test2()
