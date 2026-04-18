@@ -84,7 +84,7 @@ limit =5
 #         print(j,end=" ")
 #     print()
 
-# num=1
+num=1
 # limit =4
 # for i in range(1,limit+1):
 #     for j in range(i):
@@ -92,10 +92,10 @@ limit =5
 #         num+=1
 #     print()
 
-limit =5
-for i in range(1,limit+1):
-    for k in range(limit-i):
-        print("",end=" ")
-    for j in range(i):
-        print(i,end=" ")
-    print()
+# limit =5
+# for i in range(1,limit+1):
+#     for k in range(limit-i):
+#         print("",end=" ")
+#     for j in range(i):
+#         print(i,end=" ")
+#     print()
