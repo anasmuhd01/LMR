@@ -45,13 +45,24 @@
 # p1.greet()
 
 
-class Myclass:
-    def test(self):
-        return "hello"
+# class Myclass:
+#     def test(self):
+#         return "hello"
     
-    def test2(self):
-        msg = self.test()
-        print(f"{msg} anas")
+#     def test2(self):
+#         msg = self.test()
+#         print(f"{msg} anas")
 
-p1 = Myclass()
-p1.test2()
+# p1 = Myclass()
+# p1.test2()
+
+class Myclass:
+    def __init__(self,age):
+        self.age=age
+
+    def checkAge(self):
+        self.age+=1
+        print(self.age)
+p1= Myclass(20)
+p1.checkAge()
+p1.checkAge()
