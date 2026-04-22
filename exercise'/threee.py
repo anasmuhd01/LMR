@@ -29,6 +29,18 @@ limit =5
 #         print(l,end=" ")
 #     print()
 
+# for i in range(limit):
+#     for j in range(i):
+#         print(i,end=" ")
+#     print()
+# for k in range(3,0,-1):
+#     for l in range(k):
+#         print(k,end=" ")
+#     print()
+        
+        
+
+
 # for i in range(1,limit+1):
 #     for j in range(1,6):
 #         print(j,end=" ")
@@ -53,9 +65,9 @@ limit =5
 #     print()
 
 
-# temp=1
-# for i in range(limit):
-#     for j in range(i+1):
-#         print(temp,end=" ")
-#         temp+=1
-#     print()
+temp=1
+for i in range(limit):
+    for j in range(i+1):
+        print(temp,end=" ")
+        temp+=1
+    print()
