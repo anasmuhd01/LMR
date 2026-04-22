@@ -5,4 +5,7 @@ limit =5
 #     print()
 
 
-for i in range()
+for i in range(limit+1):
+    for j in range(i):
+        print(i,end=" ")
+    print()
